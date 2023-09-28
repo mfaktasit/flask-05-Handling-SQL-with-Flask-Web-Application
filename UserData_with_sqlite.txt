@@ -1,0 +1,13 @@
+#! /bin/bash
+     yum update -y
+     yum install python3-pip -y
+     pip3 install Flask
+     yum install git -y
+     pip3 install Flask-MySQL
+     pip3 install SQLAlchemy
+     pip3 install Flask-SQLAlchemy
+     cd /home/ec2-user
+     wget -P  templates https://raw.githubusercontent.com/mfaktasit/flask-05-Handling-SQL-with-Flask-Web-Application/main/templates/add-email.html
+     wget -P templates https://raw.githubusercontent.com/mfaktasit/flask-05-Handling-SQL-with-Flask-Web-Application/main/templates/emails.html
+     wget https://raw.githubusercontent.com/mfaktasit/flask-05-Handling-SQL-with-Flask-Web-Application/main/app-with-sqlite.py
+     python3 app-with-sqlite.py
