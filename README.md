@@ -129,8 +129,8 @@ https://flask-mysqldb.readthedocs.io/en/latest/
 
 - If doesn't work with an Error code "cannot import name '\_request_ctx_stack' from 'flask'"
 
-  downgrade the Flask
+  downgrade the Flask to version 2.3.3 .
 
-`pip install Flask==2.3.3`
+  `pip install Flask==2.3.3`
 
 - Run application with Python
