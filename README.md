@@ -131,6 +131,6 @@ https://flask-mysqldb.readthedocs.io/en/latest/
 
   downgrade the Flask
 
-   pip install Flask==2.3.3`
+  `pip install Flask==2.3.3`
 
 - Run application with Python
